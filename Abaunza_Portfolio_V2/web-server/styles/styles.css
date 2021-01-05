@@ -1,0 +1,118 @@
+/* Universal */
+* {
+    background: linear-gradient(to bottom right, #080808 29%, #75d6ff 100%);
+}
+body {
+    background: rgb(32, 32, 32);
+    font-family: arial;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner__title {
+    color: #75d6ff;
+    font-size: 250%;
+}
+
+#sub-header {
+    border-top: 2px solid #1679a3;
+    border-bottom: 2px solid #1679a3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portal {
+    background: rgb(32, 32, 32);
+    margin-bottom: 10rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.portal--spaced {
+    background: rgb(32, 32, 32);
+    justify-content: space-between;
+}
+
+.portal:hover {
+    background: rgb(32, 32, 32);
+    color: #1679a3;
+    font-size: 120%;
+    transition:  0.3s ease;
+}
+
+#footer {
+    background:rgb(32, 32, 32);
+    color: #0ca7e9;
+    border-top: 2px solid #1679a3;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, li, div {
+    background: rgb(32, 32, 32);
+    color: white;
+}
+
+#signature {
+    font-family: "Lucida Handwriting";
+}
+
+/* Homepage */
+.gold:hover {
+    background: rgb(32, 32, 32);
+    color: #c4b705;
+    font-size: 125%;
+    transition:  0.3s ease;
+}
+
+.silver:hover{
+    background: rgb(32, 32, 32);
+    color: #422e03;
+    font-size: 125%;
+    transition:  0.3s ease;
+}
+
+
+#pic {
+    width: 250px;
+    border-radius: 5rem;
+    margin-top: 0rem;
+}
+
+/* Projects Page */
+
+a {
+    background: rgb(32, 32, 32);
+    text-decoration: none;
+    color: #0ca7e9;
+}
+
+a:hover {
+    color: #1679a3;
+}
+
+/* Contact Page */
+
+.contact__header {
+    font-size: 160%;
+    text-decoration: underline;
+}
+
+.contact__item {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.link {
+    text-decoration: underline;
+    color: #0aabf0;
+}
+
+.link:hover {
+    color: #1679a3;
+    font-size: 105%;
+    transition:  0.3s ease;
+}
